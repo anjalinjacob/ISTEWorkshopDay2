@@ -1,0 +1,73 @@
+/* Home container */
+.home {
+  height: calc(100vh - 70px); /* adjusts if navbar height changes */
+  background: linear-gradient(135deg, #0b132b, #111a3a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Content wrapper */
+.home-content {
+  max-width: 700px;
+  padding: 20px;
+}
+
+/* Title */
+.home-title {
+  font-size: 64px;
+  font-weight: 800;
+  color: #4ea8de;
+  margin-bottom: 16px;
+}
+
+/* Subtitle */
+.home-subtitle {
+  font-size: 18px;
+  color: #cfd8dc;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Buttons container */
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Primary button */
+.primary-btn {
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #1f6ae1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #1555b8;
+}
+
+/* Secondary button */
+.secondary-btn {
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4ea8de;
+  background-color: transparent;
+  border: 2px solid #4ea8de;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background-color: #4ea8de;
+  color: #0b132b;
+}
